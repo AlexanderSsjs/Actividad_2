@@ -1,4 +1,4 @@
-/* ======== ESTILOS GENERALES ======== */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -6,10 +6,9 @@ body {
     background-color: #f8f9fa;
 }
 
-/* ======== HERO ======== */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('https://images.unsplash.com/photo-1606813902779-9b4fcd3a3586?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+        url('img/hero.png') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 120px 20px;
@@ -40,7 +39,6 @@ body {
     background-color: #ff5722;
 }
 
-/* ======== FEATURES ======== */
 .features {
     padding: 60px 20px;
     text-align: center;
@@ -69,7 +67,6 @@ body {
     transform: translateY(-5px);
 }
 
-/* ======== CATEGORÍAS ======== */
 .categories {
     padding: 60px 20px;
     background-color: #f8f9fa;
@@ -87,6 +84,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 5px 10px;
     transition: transform 0.3s;
 }
 
@@ -94,6 +92,7 @@ body {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    
 }
 
 .category-card:hover {
@@ -104,7 +103,6 @@ body {
     color: #ff3c00;
 }
 
-/* ======== TESTIMONIO ======== */
 .testimonial {
     background-color: #222;
     color: #fff;
@@ -113,7 +111,6 @@ body {
     font-style: italic;
 }
 
-/* ======== FOOTER ======== */
 .footer {
     text-align: center;
     background-color: #ff3c00;
